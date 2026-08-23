@@ -189,7 +189,8 @@
 <div class="folder-item" onclick="selectFolder('camera01')" id="fi-camera01"><span class="fi-icon">📁</span><div class="fi-info"><div class="fi-name">Camera 01</div><div class="fi-count">58 foto</div></div><div class="fi-status" id="status-camera01"></div></div>
 <div class="folder-item" onclick="selectFolder('camera02')" id="fi-camera02"><span class="fi-icon">📁</span><div class="fi-info"><div class="fi-name">Camera 02</div><div class="fi-count">412 foto</div></div><div class="fi-status" id="status-camera02"></div></div>
 <div class="folder-item" onclick="selectFolder('camera03')" id="fi-camera03"><span class="fi-icon">📁</span><div class="fi-info"><div class="fi-name">Camera 03</div><div class="fi-count">140 foto</div></div><div class="fi-status" id="status-camera03"></div></div>
-<div class="folder-item" onclick="selectFolder('children')" id="fi-children"><span class="fi-icon">📁</span><div class="fi-info"><div class="fi-name">St. Helena Children</div><div class="fi-count">67 foto</div></div><div class="fi-status" id="status-children"></div></div>
+<div class="folder-item" onclick="selectFolder('camera04')" id="fi-camera04"><span class="fi-icon">📁</span><div class="fi-info"><div class="fi-name">Camera 04</div><div class="fi-count">98 foto</div></div><div class="fi-status" id="status-camera04"></div></div>
+<div class="folder-item" onclick="selectFolder('children')" id="fi-children"><span class="fi-icon">📁</span><div class="fi-info"><div class="fi-name">St. Helena Children</div><div class="fi-count">92 foto</div></div><div class="fi-status" id="status-children"></div></div>
 <hr class="sidebar-divider">
       <div class="sidebar-label">Video</div>
       <div class="folder-item video-item" onclick="selectVideo()" id="fi-videos">
@@ -296,7 +297,7 @@ if (sessionStorage.getItem(SESSION_KEY) === PASS_HASH) unlockApp();
 
 // ── Gallery ──
 const DESIGN_W = 1440;
-const FOLDERS_META = [{"key": "camera01", "name": "Camera 01", "count": 58, "file": "data-camera01.js"}, {"key": "camera02", "name": "Camera 02", "count": 412, "file": "data-camera02.js"}, {"key": "camera03", "name": "Camera 03", "count": 140, "file": "data-camera03.js"}, {"key": "children", "name": "St. Helena Children", "count": 67, "file": "data-children.js"}];
+const FOLDERS_META = [{"key": "camera01", "name": "Camera 01", "count": 58, "file": "data-camera01.js"}, {"key": "camera02", "name": "Camera 02", "count": 412, "file": "data-camera02.js"}, {"key": "camera03", "name": "Camera 03", "count": 140, "file": "data-camera03.js"}, {"key": "camera04", "name": "Camera 04", "count": 98, "file": "data-camera04.js"}, {"key": "children", "name": "St. Helena Children", "count": 92, "file": "data-children.js"}];
 window.GALLERY_DATA = {};
 let curKey = null, lcur = 0;
 
